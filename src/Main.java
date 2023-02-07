@@ -3,7 +3,7 @@ public class Main {
     {
 
         int birthMonth = 8 ;
-        if (birthMonth <= 12 && birthMonth >= 1) //if birthmonth is between 1 and 12 then the code in the block executes
+        if (birthMonth <= 12 && birthMonth >= 1) //if birthmonth is between 1 and 12 then the code in the block executes. If the input doesn't math the if statement then we move onto the else if until the condition is true of the program ends
         {
             System.out.println("Your birth month is: " + birthMonth);
         }
